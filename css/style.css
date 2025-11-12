@@ -182,3 +182,134 @@ footer {
     display: flex;
     align-self: center;
 }
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #D9D9D9;
+    padding: 10px;
+    text-align: left;
+    opacity: 0.8;
+    position: fixed;
+    width: 100%;
+    height: 5%;
+}
+
+.roc-building-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.img-header {
+    height: 100%;
+}
+
+.meelopen-text {
+    display: inline-block;
+    margin-top: 5%;
+    color: black;
+    font-size: 900;
+    transform: rotate(-4deg);
+    display: flex;
+    justify-content: center;
+}
+
+.project-img {
+    display: flex;
+    justify-self: center;
+}
+
+.project-vakken {
+    display: flex;
+    justify-content: center;
+    background-color: #D9D9D9;
+    width: 100%;
+    height: 400px;
+}
+
+.project-vakken-box {
+    width: 300px;
+    height: 200px;
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.project-vakken-box-row {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.project-vakken-website {
+    background-color: #2B2D42;
+}
+
+.project-vakken-programmern {
+    background-color: #1E3A8A;
+}
+
+.project-vakken-ict {
+    background-color: #234E52;
+}
+    
+.nolinearrow1{
+    width: 50px;
+    height: 50px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.meelopen-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 200px;
+    border-radius: 10px;
+    height: 150px;
+    width: 400px;
+    background-color: #3B305A;
+    color: white;
+}
+.meelopen-text-box{
+    margin-top: 20px;
+    font-weight: 500;
+}
+.meelopen-link-box{
+    border-radius: 5px;
+}
+
+
+/* Meelopen pagina */
+.meelopen-top{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 75px;
+    gap: 40px;
+}
+
+.meelopen-header{
+    margin-top: 100px;
+    font-size: 75px;
+}
+
+.meelopen-info-box{
+    max-width: 53vw;
+}
+
+.meelopen-info{
+    font-size: 30px;
+}
+
+.meelopen-img{
+    width: 47%;
+    height: auto;
+}
