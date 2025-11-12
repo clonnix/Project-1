@@ -21,4 +21,10 @@ footer{
     background-color: #D9D9D9;
     padding: 10px;
     text-align: left;
+    opacity: 0.8;
+    position: fixed;
+}
+.random-margin{
+    margin-top: 900px;
+    margin-bottom: 900px;
 }
