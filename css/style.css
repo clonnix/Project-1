@@ -1,16 +1,35 @@
 footer {
     background-color: #D9D9D9;
     width: 100%;
+    height: 200px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
-.footer-columns ul{
-   list-style: none;
+.footer-columns {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
 }
 
-.footer-columns li a{
+.footer-columns ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 30px;
+    justify-content: center;
+
+}
+
+.footer-columns li a {
     color: black;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .footer-logo {
@@ -18,4 +37,14 @@ footer {
     height: 60.2px;
     display: flex;
     align-self: center;
+}
+
+.header {
+    background-color: #D9D9D9;
+    padding: 10px;
+    text-align: left;
+}
+
+.img-header {
+    scale: 0.5;
 }
