@@ -65,3 +65,12 @@ footer {
 .img-header{
     height: 100%;
 }
+.meelopen-text {
+    display: inline-block;
+    margin-top: 5%;
+    color: black;
+    font-size: 900;
+    transform: rotate(-4deg);
+    display: flex;
+    justify-content: center;
+}
