@@ -298,7 +298,7 @@ section{
 
 .meelopen-header{
     margin-top: 100px;
-    font-size: 75px;
+    font-size: 4vw;
 }
 
 .meelopen-info-box{
@@ -306,10 +306,10 @@ section{
 }
 
 .meelopen-info{
-    font-size: 30px;
+    font-size: 1.6vw;
 }
 
 .meelopen-img{
-    width: 47%;
+    width: 47vw;
     height: auto;
 }
