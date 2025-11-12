@@ -138,7 +138,7 @@ section {
     display: inline-block;
     margin-top: 10%;
     color: black;
-    font-size: 100px;
+    font-size: 45px;
     transform: rotate(4deg);
     display: flex;
     justify-content: center;
@@ -279,18 +279,6 @@ section {
     flex-direction: column;
 }
 
-.meelopen-box {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    margin-left: 270px;
-    border-radius: 10px;
-    height: 150px;
-    width: 400px;
-    background-color: #3B305A;
-    color: white;
-}
-
 .meelopen-text-box {
     margin-top: 20px;
     font-weight: 500;
@@ -301,6 +289,7 @@ section {
 }
 .light-blue{
 background-color: #60A5FA;
+opacity: 55%;
 }
 
 /* Meelopen pagina */
