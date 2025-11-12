@@ -18,7 +18,7 @@ footer {
 .footer-columns {
     display: flex;
     flex-direction: row;
-    align-self: flex-end;
+    gap: 10px;
 }
 
 .footer-columns ul {
