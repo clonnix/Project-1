@@ -22,3 +22,7 @@ footer{
     padding: 10px;
     text-align: left;
 }
+
+.img-header{
+    scale: 0.5;
+}
