@@ -443,11 +443,7 @@ section {
     display: flex;
     gap: 60px;
     align-items: center;
-    
     flex-direction: column;
-}
-.locaties-column{
-    margin-left: -30%;
 }
 
 .locaties-box {
@@ -456,7 +452,10 @@ section {
     height: 150px;
     text-align: center;
 }
-
+.locaties-column{
+    display: flex;
+    justify-content: center;
+}
 .locaties-blue {
     background-color: rgb(83, 177, 249, 0.5);
 }
