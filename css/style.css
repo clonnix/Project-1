@@ -522,3 +522,26 @@ section {
     color: black;
     line-height: 1.5;
 }
+
+.software-developer {
+   color: black;
+   font-size: xx-large;
+   display: flex;
+   flex-direction: row;
+}
+
+.software-developer1{
+flex-direction: column;
+background-color: #D5D5E1;
+outline: solid black;
+border-radius: 10px;
+width: 21%;
+height: 500px;
+margin-left: 20px;
+}
+
+.software-developer-row{
+    display: flex;
+}
+
+
