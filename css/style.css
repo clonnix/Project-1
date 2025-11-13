@@ -93,7 +93,12 @@ margin-left: 50px;
     height: auto;
 }
 
-.pinkgoose-info {
+.motherboard-img {
+    width: 100px;
+    height: auto;
+}
+
+.project-info {
     text-align: center;
 }
 
