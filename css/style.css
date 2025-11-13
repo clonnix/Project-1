@@ -182,7 +182,9 @@ section {
 .use-cases .meelopen-box {
     margin-left: 20px;
 }
-
+.locaties .projecten-text{
+    transform: rotate(-4deg);
+}
 .locaties .meelopen-box {
     margin-top: 90px;
     margin-left: 65%;
@@ -332,7 +334,13 @@ section {
     margin-left: 75px;
     gap: 40px;
 }
-
+.software .meelopen-text{
+    margin-top: 60px;
+    font-size: 35px;
+}
+.software .meelopen-text-box{
+    text-align: center;
+}
 .meelopen-header {
     margin-top: 100px;
     font-size: 4vw;
