@@ -531,20 +531,36 @@ section {
    font-size: xx-large;
    display: flex;
    flex-direction: row;
+    margin-top: 60px;
 }
 
 .software-developer1{
-flex-direction: column;
+flex-direction: row;
 background-color: #D5D5E1;
 outline: solid black;
 border-radius: 10px;
 width: 21%;
 height: 500px;
 margin-left: 20px;
+margin-top: 60px;
 }
 
 .software-developer-row{
     display: flex;
+    justify-content: space-around;
+}
+.software-developer-container1{
+    display: flex;
+    justify-content: space-around;
 }
 
-
+.software-developer2{
+flex-direction: row;
+background-color: #D5D5E1;
+outline: solid black;
+border-radius: 10px;
+width: 21%;
+height: 500px;
+margin-left: 20px;
+margin-top: -500px;
+}
