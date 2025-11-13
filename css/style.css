@@ -1,0 +1,525 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'montserrat';
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #D9D9D9;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    box-sizing: border-box;
+    opacity: 0.95;
+    z-index: 1000;
+}
+
+.home-headerknop1{
+display: flex;
+justify-content: flex-end;
+color: black;
+margin-left: 50px;
+}
+
+
+.img-header {
+    height: 100%;
+}
+
+.nolinearrow1 {
+    width: 3px;
+    height: 3px;
+    display: flex;
+    margin-right: 50px;
+}
+
+.roc-building-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.project-img {
+    display: flex;
+    justify-self: center;
+}
+
+.project-vakken {
+    display: flex;
+    justify-content: center;
+    background-color: #D9D9D9;
+    width: 100%;
+    height: 400px;
+}
+
+.project-vakken-box {
+    width: 350px;
+    height: 250px;
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project-vakken-box-row {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.project-vakken-website {
+    background-color: #2B2D42;
+}
+
+.project-vakken-box p{
+    font-size: 10px;
+}
+
+.pinkgoose-logo {
+    width: 200px;
+    height: auto;
+}
+
+.motherboard-img {
+    width: 100px;
+    height: auto;
+}
+
+.project-info {
+    text-align: center;
+}
+
+.project-vakken-programmern {
+    background-color: #1E3A8A;
+}
+
+.project-vakken-ict {
+    background-color: #234E52;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.meelopen-text {
+    display: inline-block;
+    margin-top: 5%;
+    color: black;
+    font-size: 100px;
+    transform: rotate(-4deg);
+    display: flex;
+    justify-content: center;
+}
+
+.meelopen-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 300px;
+    border-radius: 10px;
+    height: 150px;
+    width: 400px;
+    color: white;
+    position: relative;
+}
+
+.purple {
+    background-color: #3B305A;
+}
+
+.meelopen-text-box {
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.meelopen-link-box {
+    border-radius: 5px;
+    background-color: #7175B7;
+    width: 80px;
+    height: 15px;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    color: white;
+    font-size: x-small;
+    gap: 10px;
+}
+
+.projecten-text {
+    display: inline-block;
+    margin-top: 10%;
+    color: black;
+    font-size: 45px;
+    transform: rotate(4deg);
+    display: flex;
+    justify-content: center;
+}
+
+.projecten .meelopen-box {
+    margin-left: 50px;
+}
+
+.talen .meelopen-box {
+    margin-left: 65%;
+}
+
+.use-cases .meelopen-box {
+    margin-left: 20px;
+}
+
+.locaties .meelopen-box {
+    margin-top: 90px;
+    margin-left: 65%;
+}
+
+.blue {
+    background-color: #1E3A8A;
+}
+
+.green {
+    background-color: #234E52;
+}
+
+.light-green {
+    background-color: #48BB78;
+}
+
+.pink {
+    background-color: #702963;
+}
+
+.light-pink {
+    background-color: #C084FC;
+}
+
+.brown {
+    background-color: #4B2E05;
+}
+
+.light-brown {
+    background-color: #F4A261;
+}
+
+.talen .meelopen-text {
+    font-size: 35px;
+}
+
+.talen-text {
+    font-size: small;
+}
+
+footer {
+    background-color: #D9D9D9;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    left: 0;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+.footer-columns {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.footer-columns ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 40px;
+    justify-content: center;
+
+}
+
+.footer-columns li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer-logo {
+    width: 120px;
+    height: auto;
+    display: flex;
+    align-self: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #D9D9D9;
+    padding: 10px;
+    text-align: left;
+    opacity: 0.8;
+    position: fixed;
+    width: 100%;
+    height: 5%;
+}
+
+.roc-building-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.img-header {
+    height: 100%;
+}
+
+.meelopen-text {
+    display: inline-block;
+    margin-top: 5%;
+    color: black;
+    font-size: 900;
+    transform: rotate(-4deg);
+    display: flex;
+    justify-content: center;
+}
+
+.nolinearrow1 {
+    width: 50px;
+    height: 50px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.meelopen-text-box {
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.meelopen-link-box {
+    border-radius: 5px;
+}
+
+.light-blue {
+    background-color: #60A5FA;
+}
+
+/* Meelopen pagina */
+.meelopen-top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 75px;
+    gap: 40px;
+}
+
+.meelopen-header {
+    margin-top: 100px;
+    font-size: 4vw;
+}
+
+.meelopen-info-box {
+    max-width: 53vw;
+}
+
+.meelopen-info {
+    font-size: 1.6vw;
+}
+
+.meelopen-img {
+    width: 47vw;
+    height: auto;
+}
+
+.meelopen-bottom {
+    width: 100%;
+    height: 400px;
+    background-color: rgba(74, 191, 241, 0.3);
+    margin-top: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.meelopen-bottom h1 {
+    font-size: 60px;
+    margin-left: 100px;
+    font-weight: 500;
+}
+
+.meelopen-bottom ul {
+    list-style-type: disc;
+    margin-left: 40px;
+    padding-left: 20px;
+    color: black;
+    font-size: 30px;
+    margin-left: 100px;
+    color: #535353;
+}
+
+.meelopen-bottom p {
+    margin-left: 100px;
+    font-size: 30px;
+    color: #535353;
+}
+
+.meelopen-bottom .list li {
+    margin-bottom: 10px;
+}
+
+/* Use cases pagina */
+.use-cases {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    padding: 40px 20px;
+}
+
+.use-cases h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.use-cases-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+}
+
+.use-case {
+    flex: 1 1 300px;
+    max-width: 350px;
+    background-color: #D5D5E1;
+    border: 1px solid #7A7676;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.locaties-header-text {
+    margin-top: 7%;
+    margin-left: 20%;
+    display: inline-block;
+    transform: rotate(-4deg);
+    display: flex;
+    text-align: center;
+    font-size: 50px;
+}
+.locaties-columns{
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+}
+.locaties-boxen {
+    margin-top: 50px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    
+    flex-direction: column;
+}
+.locaties-column{
+    justify-content: center;
+}
+
+.locaties-box {
+    border-radius: 5px;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+}
+
+.locaties-blue {
+    background-color: rgb(83, 177, 249, 0.5);
+}
+.locaties-pink{
+    background-color: rgb(229, 71, 187, 0.5);
+}
+.use-case img {
+    height: 50px;
+    width: auto;
+    max-width: 100%;
+    margin: 0 auto 15px auto;
+}
+
+
+.use-case p {
+    font-size: 0.95rem;
+    color: black;
+    line-height: 1.5;
+}
+
+
+/* programmeertalen pagina */
+.programmeertalen h1 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-items: start;
+}
+
+.card {
+    width: 220px;
+    height: 400px;
+    background-color: #D5D5E1;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.card-header img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.card h2 {
+    font-size: 1.4rem;
+}
+
+.card p {
+    font-size: 0.95rem;
+    color: black;
+    line-height: 1.5;
+}
