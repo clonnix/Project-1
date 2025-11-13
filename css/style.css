@@ -20,14 +20,26 @@
     z-index: 1000;
 }
 
+.home-headerknop1{
+display: flex;
+justify-content: flex-end;
+color: black;
+margin-left: 50px;
+}
+
+.home{
+    padding-left: 30px;
+}
 
 .img-header {
     height: 100%;
 }
 
 .nolinearrow1 {
-    width: 50px;
-    height: 50px;
+    width: 3px;
+    height: 3px;
+    display: flex;
+    margin-right: 50px;
 }
 
 .roc-building-img {
@@ -156,46 +168,60 @@ section {
     display: flex;
     justify-content: center;
 }
-.projecten .meelopen-box{
+
+.projecten .meelopen-box {
     margin-left: 50px;
 }
-.talen .meelopen-box{
-margin-left: 65%;
+
+.talen .meelopen-box {
+    margin-left: 65%;
 }
-.use-cases .meelopen-box{
-margin-left: 20px;
+
+.use-cases .meelopen-box {
+    margin-left: 20px;
 }
-.locaties .meelopen-box{
+
+.locaties .meelopen-box {
     margin-top: 90px;
     margin-left: 65%;
 }
+
 .blue {
     background-color: #1E3A8A;
 }
-.green{
+
+.green {
     background-color: #234E52;
 }
-.light-green{
+
+.light-green {
     background-color: #48BB78;
 }
-.pink{
+
+.pink {
     background-color: #702963;
 }
-.light-pink{
+
+.light-pink {
     background-color: #C084FC;
 }
-.brown{
+
+.brown {
     background-color: #4B2E05;
 }
-.light-brown{
+
+.light-brown {
     background-color: #F4A261;
 }
-.talen .meelopen-text{
+
+.talen .meelopen-text {
     font-size: 35px;
 }
-.talen-text{
+
+.talen-text {
     font-size: small;
 }
+
 footer {
     background-color: #D9D9D9;
     width: 100%;
@@ -271,6 +297,50 @@ footer {
     justify-content: center;
 }
 
+.project-img {
+    display: flex;
+    justify-self: center;
+}
+
+.project-vakken {
+    display: flex;
+    justify-content: center;
+    background-color: #D9D9D9;
+    width: 100%;
+    height: 400px;
+}
+
+.project-vakken-box {
+    width: 300px;
+    height: 200px;
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.project-vakken-box-row {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.project-vakken-website {
+    background-color: #2B2D42;
+}
+
+.project-vakken-programmern {
+    background-color: #1E3A8A;
+
+}
+
+.project-vakken-ict {
+    background-color: #234E52;
+}
+
 .nolinearrow1 {
     width: 50px;
     height: 50px;
@@ -291,8 +361,9 @@ section {
 .meelopen-link-box {
     border-radius: 5px;
 }
-.light-blue{
-background-color: #60A5FA;
+
+.light-blue {
+    background-color: #60A5FA;
 }
 
 /* Meelopen pagina */
@@ -392,6 +463,45 @@ background-color: #60A5FA;
     box-sizing: border-box;
 }
 
+.locaties-header-text {
+    margin-top: 7%;
+    margin-left: 20%;
+    display: inline-block;
+    transform: rotate(-4deg);
+    display: flex;
+    text-align: center;
+    font-size: 50px;
+}
+.locaties-columns{
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+}
+.locaties-boxen {
+    margin-top: 50px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    
+    flex-direction: column;
+}
+.locaties-column{
+    margin-left: -30%;
+}
+
+.locaties-box {
+    border-radius: 5px;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+}
+
+.locaties-blue {
+    background-color: rgb(83, 177, 249, 0.5);
+}
+.locaties-pink{
+    background-color: rgb(229, 71, 187, 0.5);
+}
 .use-case img {
     height: 50px;
     width: auto;
@@ -408,7 +518,7 @@ background-color: #60A5FA;
 
 
 /* programmeertalen pagina */
-.programmeertalen h1{
+.programmeertalen h1 {
     margin-top: 100px;
     margin-bottom: 50px;
 }
