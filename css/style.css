@@ -4,7 +4,7 @@
     font-family: 'montserrat';
 }
 
-.header {
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -14,21 +14,28 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100px;
+    height: 70px;
     box-sizing: border-box;
     opacity: 0.95;
 }
 
-.scholen{
-    
+.header-text {
+    font-size: 8px;
+    font-weight: bold;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
 }
 
+.header-text-container {
+    display: flex;
+    gap: 40px;
+}
 
 .img-header {
     height: 100%;
 }
-
-
 
 .roc-building-img {
     width: 100%;
@@ -278,9 +285,6 @@ footer {
     display: block;
 }
 
-.img-header {
-    height: 100%;
-}
 
 .meelopen-text {
     display: inline-block;
@@ -439,11 +443,7 @@ section {
     display: flex;
     gap: 60px;
     align-items: center;
-    
     flex-direction: column;
-}
-.locaties-column{
-    margin-left: -30%;
 }
 
 .locaties-box {
@@ -452,7 +452,10 @@ section {
     height: 150px;
     text-align: center;
 }
-
+.locaties-column{
+    display: flex;
+    justify-content: center;
+}
 .locaties-blue {
     background-color: rgb(83, 177, 249, 0.5);
 }
