@@ -468,6 +468,7 @@ section {
     border-radius: 5px;
     width: 250px;
     height: 150px;
+    text-align: center;
 }
 
 .locaties-blue {
@@ -475,14 +476,6 @@ section {
 }
 .locaties-pink{
     background-color: rgb(229, 71, 187, 0.5);
-}
-.locaties-circle{
-    display: flex;
-    margin-left: auto;
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    background-color: gray;
 }
 .use-case img {
     height: 50px;
