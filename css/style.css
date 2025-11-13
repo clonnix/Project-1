@@ -4,7 +4,7 @@
     font-family: 'montserrat';
 }
 
-.header {
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -278,9 +278,6 @@ footer {
     display: block;
 }
 
-.img-header {
-    height: 100%;
-}
 
 .meelopen-text {
     display: inline-block;
